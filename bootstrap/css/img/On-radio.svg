@@ -1,0 +1,17 @@
+<svg id="On" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #e4e8f0;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #00deea;
+      }
+    </style>
+  </defs>
+  <circle id="Radiobutton_BG" data-name="Radiobutton BG" class="cls-1" cx="10" cy="10" r="9"/>
+  <circle id="Selected_Dot" data-name="Selected Dot" class="cls-2" cx="10" cy="10" r="3.5"/>
+</svg>
