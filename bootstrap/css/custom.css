@@ -105,8 +105,7 @@ p, span, {
   background-image: url('./././img/iphone6.jpg');
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;   
+  background-repeat: no-repeat;  
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
@@ -308,6 +307,7 @@ span {
   flex-flow: row nowrap;
   width: 100%;
   background-color: #E4E5E7;
+  height: 465px;
 }
 
 .shop_window_row_2 {
@@ -323,7 +323,7 @@ span {
 }
 
   .shop_item {
-    margin-right: 2rem;
+    margin-right: 1.5rem;
     padding-top: 2rem;
           
   }
@@ -340,17 +340,40 @@ span {
     display: flex;
     justify-content: space-between;
     padding-right: 0.8rem;
+    
   }
 
   .side_menu p:last-child {
     border-bottom: none;
+    margin-bottom: 0.4rem;
   }
 
 .grey_background {
   background-color: #f0f2f7;
-  width: 100%;
-  
+  margin-top: -1rem;
+ 
 }
+
+.shop_item img {
+  width: 220px;
+}
+
+.shop_item, .lower{
+  height: 380px;
+}
+
+.lower_items {
+  margin-top: -2rem;
+}
+
+.shop_window_row_4 {
+  margin-top: -3rem;
+}
+
+
+
+
+
 
 
 
