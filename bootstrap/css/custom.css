@@ -43,6 +43,12 @@ li {
    
  }
 
+ .cart img:hover {
+  transform: scale(1.8);
+  transition-duration: 0.5s;
+  cursor: pointer;
+ }
+
  .badge {
   border-radius: 12px;
   background-color: rgb(227, 232, 240);
@@ -59,6 +65,13 @@ li {
   padding: 0.8rem;
   margin-left: 2rem;
   
+}
+
+.sign_in:hover {
+  background-color: rgb(52, 62, 92);
+  color: rgb(227, 232, 240);
+  border: none;
+  cursor: pointer;
 }
 
 
@@ -134,6 +147,12 @@ h1 {
     
 }
 
+.buy_now:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(39, 84, 235);
+}
+
 .buy {
   margin-top: -65px;
   width: 418.59px;
@@ -151,6 +170,8 @@ h1 {
   width: 100%;
   padding: 1rem;
   margin: 1rem;
+  border-radius: 5px;
+ 
 }
 
 
@@ -166,6 +187,11 @@ h1 {
   font-family: "Montserrat";
   color: rgb(161, 168, 189);
   font-size: 14px;
+}
+
+.blue {
+    color: rgb(39, 84, 235);
+    text-decoration: underline;
 }
 
  .tablet {
@@ -215,7 +241,8 @@ span {
 
 .shop_window_footer span{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
   
 }
 
@@ -230,7 +257,6 @@ span {
 }
 
 
-
 .footer {
   background-color: #222328;
   width: 100vw;
@@ -238,23 +264,95 @@ span {
   
 }
 
+.footer .portland {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
 .footer li {
   color: #ffffff;
   font-family: "Montserrat";
  
 }
 
+ li:hover {
+  color:#E3E8F0;
+  cursor: pointer;
+}
+
 .social_icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding-bottom: 1rem;
 }
 
-.row .shop_window_row_2 {
-  display: flex;
-  justify-content: space-between;
+.social_icons img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition-duration: 0.5s;
 }
+
+.shop_window_row_2, .shop_window_row_3 {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  background-color: #E4E5E7;
+}
+
+.shop_item, .side_menu {
+  text-align: center;
+  width: 25%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+  .shop_item {
+    margin-left: 1rem;
+    padding-top: 2rem;
+          
+  }
+
+  .side_menu>p, .grey_background>p  {
+    border-bottom: 1px solid #dfe4ee;  
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .side_menu>p {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0.2rem;
+  }
+
+  .side_menu p:last-child {
+    border-bottom: none;
+  }
+
+.grey_background {
+  background-color: #f0f2f7;
+  width: 100%;
+}
+
+
+.side_menu {
+  display: flex;
+  flex-flow: column;
+  justify-content: stretch;
+  height: 100%;
+}
+
+
+
+
+  
+
+
+
 
 
 /* 
